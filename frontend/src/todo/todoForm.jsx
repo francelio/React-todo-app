@@ -9,7 +9,7 @@ export default props => (
             placeholder='Adicione uma tarefa'></input>
       </Grid>
       <Grid cols='12 3 2'>
-      <IconButton style='primary' icon='plus' ></IconButton>
+        <IconButton onClick={props.handleAdd} style='primary' icon='plus' ></IconButton>
       </Grid>
     </div>
   )
